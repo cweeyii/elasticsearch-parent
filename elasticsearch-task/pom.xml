@@ -151,6 +151,11 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.cweeyii</groupId>
+            <artifactId>elasticsearch-client</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

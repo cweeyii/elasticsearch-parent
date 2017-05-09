@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @Ignore
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"classpath:applicationContext-datasource.xml"})
+@ContextConfiguration({"classpath:applicationContext-datasource.xml","classpath:applicationContext-es.xml"})
 public class BaseTest {
     private static final Logger LOGGER = LoggerFactory.getLogger(BaseTest.class);
 

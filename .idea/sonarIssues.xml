@@ -8,6 +8,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/annotation/ESParams.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/BSIElasticsearchClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESConfig.java">
           <value>
             <set />
@@ -18,12 +28,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESSearchUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ElasticSearchClientFactory.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/FilterBuilderOperation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/SearchIndexService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/SearchIndexServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/BuilderOperation.java">
           <value>
             <set />
           </value>
@@ -44,6 +74,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/Pair.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/QueryType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/SearchCondition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/SearchOperation.java">
           <value>
             <set />
           </value>
@@ -113,7 +163,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/handle/EnterpriseSearchHandle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/generator/PageableFindPlugin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicElasticJob.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicElsticJob.java">
           <value>
             <set />
           </value>
@@ -123,12 +193,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/ObjectConvertUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-datasource.xml">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-es.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/resources/database.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/resources/es.properties">
           <value>
             <set />
           </value>
@@ -229,6 +314,11 @@
           </value>
         </entry>
         <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
           <value>
             <set />
           </value>

@@ -70,6 +70,7 @@
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-web:2.3" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.2" level="project" />
   </component>
   <component name="sonarModuleSettings">
     <option name="localAnalysisScripName" value="&lt;PROJECT&gt;" />

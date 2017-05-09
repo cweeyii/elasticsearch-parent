@@ -13,20 +13,28 @@ import java.util.List;
  * Email:caowenyi@meituan.com
  */
 public class EnterpriseBasicJobTest extends BaseTest {
-    private static final Logger LOGGER= LoggerFactory.getLogger(EnterpriseBasicJobTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(EnterpriseBasicJobTest.class);
     @Resource
     private EnterpriseBasicJob enterpriseBasicJob;
     @Resource
     private JdbcTemplate jdbcTemplate;
+    @Resource
+    private EnterpriseBasicElasticJob enterpriseBasicElasticJob;
 
     @Test
     public void testFunction() {
         enterpriseBasicJob.scanDataJob();
     }
+
     @Test
-    public void testJdbc(){
-        String sql="select enterprise_name from enterprise_basic_info where id>0 limit 10";
-        List<String> names=jdbcTemplate.queryForList(sql,String.class);
+    public void testJdbc() {
+        String sql = "select enterprise_name from enterprise_basic_info where id>0 limit 10";
+        List<String> names = jdbcTemplate.queryForList(sql, String.class);
         LOGGER.info(names.toString());
+    }
+
+    @Test
+    public void testDTO(){
+        enterpriseBasicElasticJob.scanIndexJob();
     }
 }

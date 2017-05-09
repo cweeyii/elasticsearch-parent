@@ -27,14 +27,14 @@ import java.util.Map;
  * Created by wenyi on 17/5/9.
  * Email:caowenyi@meituan.com
  */
-public class SearchIndexService<T> {
+public abstract class SearchIndexService<T> {
     private static final Logger LOGGER = LoggerFactory.getLogger(SearchIndexService.class);
     private ESConfig esConfig;
     private Client client;
     protected Class<T> clazz;
 
     public SearchIndexService(ESConfig esConfig) {
-        client = ElasticSearchClientFactory.build(getEsConfig());
+        client = ElasticSearchClientFactory.build(esConfig);
         clazz = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
         this.esConfig = esConfig;
     }
@@ -73,7 +73,7 @@ public class SearchIndexService<T> {
         return indexId;
     }
 
-    void updateIndexBulk(Map<T, String> obj2Routing) {
+    public void updateIndexBulk(Map<T, String> obj2Routing) {
         if (obj2Routing == null || obj2Routing.isEmpty()) {
             LOGGER.info("elastic search bulk update param check failed");
             return;
@@ -91,7 +91,7 @@ public class SearchIndexService<T> {
         bulkRequestBuilder.execute().actionGet();
     }
 
-    void deleteIndex(String indexId, @Nullable String routing) {
+    public void deleteIndex(String indexId, @Nullable String routing) {
         if (StringUtils.isEmpty(indexId)) {
             LOGGER.info("delete es index indexId invalid.indexId=" + indexId);
             return;
@@ -103,7 +103,7 @@ public class SearchIndexService<T> {
         deleteRequestBuilder.execute().actionGet();
     }
 
-    List<List<T>> getListByCondition(Map<SearchCondition, String> searchCondition2Routing) {
+    public List<List<T>> getListByCondition(Map<SearchCondition, String> searchCondition2Routing) {
         List<List<T>> results = new ArrayList<>();
         MultiSearchResponse multiSearchResponse = ESSearchUtil.doSearch(client, searchCondition2Routing, getIndexName(), getTypeName());
         for (MultiSearchResponse.Item item : multiSearchResponse.getResponses()) {
@@ -121,7 +121,7 @@ public class SearchIndexService<T> {
         return results;
     }
 
-    Pair<List<List<T>>, Long> getListAndHitsByCondition(Map<SearchCondition, String> searchCondition2Routing) {
+    public Pair<List<List<T>>, Long> getListAndHitsByCondition(Map<SearchCondition, String> searchCondition2Routing) {
         List<List<T>> results = new ArrayList<>();
         Long count = 0L;
 
@@ -143,11 +143,11 @@ public class SearchIndexService<T> {
         return new Pair<>(results, count);
     }
 
-    List<T> getListByCondition(SearchCondition searchCondition, @Nullable String routing) {
+    public List<T> getListByCondition(SearchCondition searchCondition, @Nullable String routing) {
         return getListByCondition(searchCondition, null, routing);
     }
 
-    List<T> getListByCondition(SearchCondition searchCondition, Long timeoutMillis, @Nullable String routing) {
+    public List<T> getListByCondition(SearchCondition searchCondition, Long timeoutMillis, @Nullable String routing) {
         SearchResponse searchResponse = null;
         List<T> objects = new ArrayList<T>();
 
@@ -174,4 +174,6 @@ public class SearchIndexService<T> {
         }
         return objects;
     }
+
+    protected abstract String routingRule();
 }
