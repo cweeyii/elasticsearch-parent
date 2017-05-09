@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/elasticsearch-client/elasticsearch-client.iml" filepath="$PROJECT_DIR$/elasticsearch-client/elasticsearch-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/elasticsearch-parent.iml" filepath="$PROJECT_DIR$/elasticsearch-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elasticsearch-task/elasticsearch-task.iml" filepath="$PROJECT_DIR$/elasticsearch-task/elasticsearch-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-generator-plugin/mybatis-generator-plugin.iml" filepath="$PROJECT_DIR$/mybatis-generator-plugin/mybatis-generator-plugin.iml" />
     </modules>
   </component>
 </project>

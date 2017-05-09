@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/elasticsearch-task" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis-generator-plugin" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

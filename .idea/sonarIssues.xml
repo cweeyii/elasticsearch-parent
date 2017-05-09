@@ -8,12 +8,227 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESIndexService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ElasticSearchClientFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/FilterBuilderOperation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/FilterBuilderOperation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationBuilderFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/ShouldBuilderOperation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/dao/mapper/EnterpriseBasicInfoMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/dao/mapper/impl/EnterpriseBasicInfoMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/dao/mapper/impl/EnterpriseBasicInfoMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/generator/PagePlugin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/generator/PageableFindPlugin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/generator/PageablePlugin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/generator/PaginationPlugin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/service/BaseOperateService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/service/EnterpriseBasicInfoService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/service/impl/EnterpriseBasicInfoServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/util/ScanDomainUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/generator/PageableFindPlugin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicJob.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-datasource.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/resources/database.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/resources/log4j.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/resources/log4j2.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/resources/mybatis-generator-config.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/BaseTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/EnterpriseBasicJobTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/mybatis-generator-plugin/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../redis-parent/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../waimai_m_dc_develop_kit/elasticsearch/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../waimai_m_dc_develop_kit/elasticsearch/src/main/java/com/sankuai/meituan/waimai/wdc/sdk/elasticsearch/BSIElasticsearchClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../waimai_m_dc_develop_kit/elasticsearch/src/main/java/com/sankuai/meituan/waimai/wdc/sdk/elasticsearch/EsClientFacility.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../waimai_m_dc_develop_kit/elasticsearch/src/main/java/com/sankuai/meituan/waimai/wdc/sdk/elasticsearch/util/ElasticsearchUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../waimai_m_dc_develop_kit/elasticsearch/src/main/java/com/sankuai/meituan/waimai/wdc/sdk/elasticsearch/vo/SearchCondition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../waimai_m_poi/waimai_m_poi_common/src/main/java/com/sankuai/meituan/waimai/wdc/baseinfo/brand/CoreNameSearcher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../waimai_m_poi/waimai_m_poi_common/src/main/java/com/sankuai/meituan/waimai/wdc/baseinfo/service/impl/BrandServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../waimai_m_poi/waimai_m_poi_common/src/main/resources/applicationContext-datasource.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../waimai_m_poi/waimai_m_poi_task/src/test/java/com/sankuai/meituan/waimai/wdc/brand/JSONTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../waimai_m_poi/waimai_m_poi_task/src/test/java/com/sankuai/meituan/waimai/wdc/brand/SegmentJobTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
           <value>
             <set />
           </value>

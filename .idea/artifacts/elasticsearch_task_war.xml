@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="elasticsearch-task:war">
+    <output-path>$PROJECT_DIR$/elasticsearch-task/target</output-path>
+    <root id="archive" name="elasticsearch-task-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="elasticsearch-task:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>elasticsearch-client</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <distributionManagement>
         <repository>
@@ -68,6 +68,40 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-oxm</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.2</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -123,10 +157,28 @@
             </plugin>
         </plugins>
 
+        <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>${basedir}/src/main/resources</directory>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
             </resource>
         </resources>
+        <outputDirectory>${basedir}/target/classes</outputDirectory>
+        <testSourceDirectory>${basedir}/src/test/java</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>${basedir}/src/test/resources</directory>
+            </testResource>
+        </testResources>
+        <testOutputDirectory>${basedir}/target/test-classes</testOutputDirectory>
     </build>
 </project>

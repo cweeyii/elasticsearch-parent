@@ -1,0 +1,9 @@
+/Users/wenyi/workspace/elasticsearch-parent/elasticsearch-task/src/main/java/com/cweeyii/base/dao/mapper/EnterpriseBasicInfoMapper.java
+/Users/wenyi/workspace/elasticsearch-parent/elasticsearch-task/src/main/java/com/cweeyii/base/threadpool/BasicThreadPoolFactory.java
+/Users/wenyi/workspace/elasticsearch-parent/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicJob.java
+/Users/wenyi/workspace/elasticsearch-parent/elasticsearch-task/src/main/java/com/cweeyii/base/service/impl/EnterpriseBasicInfoServiceImpl.java
+/Users/wenyi/workspace/elasticsearch-parent/elasticsearch-task/src/main/java/com/cweeyii/base/service/EnterpriseBasicInfoService.java
+/Users/wenyi/workspace/elasticsearch-parent/elasticsearch-task/src/main/java/com/cweeyii/base/service/BaseOperateService.java
+/Users/wenyi/workspace/elasticsearch-parent/elasticsearch-task/src/main/java/com/cweeyii/base/domain/EnterpriseBasicInfo.java
+/Users/wenyi/workspace/elasticsearch-parent/elasticsearch-task/src/main/java/com/cweeyii/base/util/ScanDomainUtil.java
+/Users/wenyi/workspace/elasticsearch-parent/elasticsearch-task/src/main/java/com/cweeyii/base/domain/EnterpriseBasicInfoExample.java

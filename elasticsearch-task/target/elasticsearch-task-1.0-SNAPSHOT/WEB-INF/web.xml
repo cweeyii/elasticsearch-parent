@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>smart-industry</display-name>
+  <description>smart-industry</description>
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>
+      classpath:applicationContext-datasource.xml
+    </param-value>
+  </context-param>
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+  <!-- log4j2-begin -->
+  <listener>
+    <listener-class>org.apache.logging.log4j.web.Log4jServletContextListener</listener-class>
+  </listener>
+  <filter>
+    <filter-name>log4jServletFilter</filter-name>
+    <filter-class>org.apache.logging.log4j.web.Log4jServletFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>log4jServletFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+    <dispatcher>INCLUDE</dispatcher>
+    <dispatcher>ERROR</dispatcher>
+  </filter-mapping>
+  <!-- log4j2-end -->
+
+  <filter>
+    <filter-name>DruidWebStatFilter</filter-name>
+    <filter-class>com.alibaba.druid.support.http.WebStatFilter</filter-class>
+    <init-param>
+      <param-name>exclusions</param-name>
+      <param-value>*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>DruidWebStatFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <filter>
+    <filter-name>SetCharacterEncoding</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>SetCharacterEncoding</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <servlet>
+    <servlet-name>appServlet</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>
+      </param-value>
+    </init-param>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>appServlet</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DruidStatView</servlet-name>
+    <servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DruidStatView</servlet-name>
+    <url-pattern>/druid/*</url-pattern>
+  </servlet-mapping>
+</web-app>
