@@ -4,6 +4,7 @@ com/cweeyii/base/service/BaseOperateService.class
 com/cweeyii/base/util/ScanDomainUtil$ScanWorker.class
 com/cweeyii/base/domain/EnterpriseBasicInfoExample$Criteria.class
 com/cweeyii/base/util/ScanDomainUtil.class
+com/cweeyii/util/DistanceUtil.class
 com/cweeyii/base/domain/EnterpriseBasicInfoExample$Criterion.class
 com/cweeyii/base/dao/mapper/EnterpriseBasicInfoMapper.class
 com/cweeyii/base/util/ScanDomainUtil$ScanFunction.class

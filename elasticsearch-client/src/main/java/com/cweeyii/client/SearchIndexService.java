@@ -13,6 +13,7 @@ import org.elasticsearch.client.Client;
 import org.elasticsearch.common.Nullable;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
+import org.elasticsearch.search.aggregations.Aggregations;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
@@ -147,17 +148,20 @@ public abstract class SearchIndexService<T> {
         return getListByCondition(searchCondition, null, routing);
     }
 
-    public List<T> getListByCondition(SearchCondition searchCondition, Long timeoutMillis, @Nullable String routing) {
-        SearchResponse searchResponse = null;
-        List<T> objects = new ArrayList<T>();
+    private SearchResponse getSearchResponseByCondition(SearchCondition searchCondition, Long timeoutMillis, @Nullable String routing) {
+        SearchResponse searchResponse;
 
         if (timeoutMillis == null || timeoutMillis.intValue() <= 0) {
             searchResponse = ESSearchUtil.doSearch(client, searchCondition, getIndexName(), getTypeName(), routing);
         } else {
             searchResponse = ESSearchUtil.doSearch(client, searchCondition, timeoutMillis, getIndexName(), getTypeName(), routing);
         }
+        return searchResponse;
+    }
 
-
+    public List<T> getListByCondition(SearchCondition searchCondition, Long timeoutMillis, @Nullable String routing) {
+        List<T> objects = new ArrayList<>();
+        SearchResponse searchResponse = getSearchResponseByCondition(searchCondition, timeoutMillis, routing);
         if (searchResponse == null) {
             return objects;
         }
@@ -172,7 +176,34 @@ public abstract class SearchIndexService<T> {
             }
             objects.add(obj);
         }
+        searchResponse.getAggregations();
         return objects;
+    }
+
+    public Pair<List<T>, Aggregations> getAggregationsByCondition(SearchCondition searchCondition, @Nullable String routing) {
+        return getAggregationsByCondition(searchCondition,null,routing);
+    }
+
+    public Pair<List<T>, Aggregations> getAggregationsByCondition(SearchCondition searchCondition, Long timeoutMillis, @Nullable String routing) {
+        List<T> objects = new ArrayList<>();
+        SearchResponse searchResponse = getSearchResponseByCondition(searchCondition, timeoutMillis, routing);
+
+        if (searchResponse == null) {
+            return null;
+        }
+
+        SearchHits hits = searchResponse.getHits();
+        searchCondition.setTotal(Long.valueOf(hits.getTotalHits()).intValue());
+
+        for (SearchHit searchHit : hits) {
+            T obj = JSONObject.parseObject(searchHit.getSourceAsString(), clazz);
+            if (obj == null) {
+                continue;
+            }
+            objects.add(obj);
+        }
+        Aggregations aggregations = searchResponse.getAggregations();
+        return new Pair<>(objects, aggregations);
     }
 
     protected abstract String routingRule();

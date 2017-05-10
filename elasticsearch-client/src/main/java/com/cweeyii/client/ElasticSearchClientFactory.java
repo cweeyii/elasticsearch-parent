@@ -22,7 +22,7 @@ public class ElasticSearchClientFactory {
     private static final Map<ESConfig, TransportClient> cacheEsClientMap = new ConcurrentHashMap<>();
 
     public static Client build(ESConfig esConfig) {
-        if (checkConfig(esConfig)) {
+        if (!checkConfig(esConfig)) {
             return null;
         }
         TransportClient transportClient=cacheEsClientMap.get(esConfig);

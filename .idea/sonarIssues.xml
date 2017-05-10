@@ -63,6 +63,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/GeoRangeSort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationBuilder.java">
           <value>
             <set />
@@ -79,6 +84,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/Pair.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/Point.java">
           <value>
             <set />
           </value>
@@ -193,6 +203,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/DistanceUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/ObjectConvertUtil.java">
           <value>
             <set />
@@ -239,6 +254,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/BaseTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/ElasticSearchConditionTest.java">
           <value>
             <set />
           </value>

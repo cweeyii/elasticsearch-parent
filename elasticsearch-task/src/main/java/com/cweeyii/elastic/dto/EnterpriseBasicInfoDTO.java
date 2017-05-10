@@ -14,14 +14,23 @@ import java.io.Serializable;
 public class EnterpriseBasicInfoDTO implements Serializable {
     private static final long serialVersionUID = -1L;
     private Long id;
+
     private String enterpriseName;
-    private double longitude;
-    private double latitude;
+
+    private Double longitude;
+
+    private Double latitude;
+
     private String cityName;
+
     private String districtName;
+
     private String address;
+
     private String phone;
+
     private String businessCategory;
+
     private String location;
     private Integer valid;
 

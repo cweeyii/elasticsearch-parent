@@ -1,6 +1,5 @@
 package com.cweeyii.client;
 
-import com.cweeyii.operation.Pair;
 import com.cweeyii.operation.SearchCondition;
 import org.elasticsearch.action.search.MultiSearchRequestBuilder;
 import org.elasticsearch.action.search.MultiSearchResponse;
@@ -9,7 +8,9 @@ import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.common.Nullable;
 import org.elasticsearch.index.query.QueryBuilder;
-import org.elasticsearch.search.sort.SortOrder;
+import org.elasticsearch.search.aggregations.AbstractAggregationBuilder;
+import org.elasticsearch.search.sort.SortBuilder;
+import org.springframework.util.CollectionUtils;
 
 import java.util.Map;
 
@@ -52,11 +53,18 @@ public class ESSearchUtil {
             builder.setRouting(routing);
         }
 
-        if (searchCondition.getOrders() != null) {
-            for (Pair<String, SortOrder> sorts : searchCondition.getOrders()) {
-                builder.addSort(sorts.getFirst(), sorts.getSecond());
+        if (!CollectionUtils.isEmpty(searchCondition.getOrders())) {
+            for (SortBuilder sortBuilder : searchCondition.getOrders()) {
+                builder.addSort(sortBuilder);
             }
         }
+
+        if (!CollectionUtils.isEmpty(searchCondition.getAggregationBuilders())) {
+            for (AbstractAggregationBuilder abstractAggregationBuilder : searchCondition.getAggregationBuilders()) {
+                builder.addAggregation(abstractAggregationBuilder);
+            }
+        }
+
         return builder;
     }
 }

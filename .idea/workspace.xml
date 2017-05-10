@@ -2,35 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1d0151a-52de-4e15-a866-b73fc38d9095" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/handle/EnterpriseSearchHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicElasticJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/ObjectConvertUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-es.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/resources/es.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/DistanceUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/ElasticSearchConditionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/target/classes/com/cweeyii/client/ESSearchUtil.class" afterPath="$PROJECT_DIR$/elasticsearch-client/target/classes/com/cweeyii/client/ESSearchUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/target/classes/com/cweeyii/client/ElasticSearchClientFactory.class" afterPath="$PROJECT_DIR$/elasticsearch-client/target/classes/com/cweeyii/client/ElasticSearchClientFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/target/classes/com/cweeyii/client/SearchIndexService.class" afterPath="$PROJECT_DIR$/elasticsearch-client/target/classes/com/cweeyii/client/SearchIndexService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/target/classes/com/cweeyii/operation/OperationBuilderFactory$Builder.class" afterPath="$PROJECT_DIR$/elasticsearch-client/target/classes/com/cweeyii/operation/OperationBuilderFactory$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/target/classes/com/cweeyii/operation/SearchCondition.class" afterPath="$PROJECT_DIR$/elasticsearch-client/target/classes/com/cweeyii/operation/SearchCondition.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/target/elasticsearch-client-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/elasticsearch-client/target/elasticsearch-client-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/classes/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.class" afterPath="$PROJECT_DIR$/elasticsearch-task/target/classes/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/classes/com/cweeyii/util/ObjectConvertUtil.class" afterPath="$PROJECT_DIR$/elasticsearch-task/target/classes/com/cweeyii/util/ObjectConvertUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/test-classes/com/cweeyii/job/BaseTest.class" afterPath="$PROJECT_DIR$/elasticsearch-task/target/test-classes/com/cweeyii/job/BaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/test-classes/com/cweeyii/job/EnterpriseBasicJobTest.class" afterPath="$PROJECT_DIR$/elasticsearch-task/target/test-classes/com/cweeyii/job/EnterpriseBasicJobTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/classes/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.class" afterPath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/classes/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/classes/com/cweeyii/util/ObjectConvertUtil.class" afterPath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/classes/com/cweeyii/util/ObjectConvertUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/lib/elasticsearch-client-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/lib/elasticsearch-client-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-generator-plugin/target/mybatis.generator.plugin-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/mybatis-generator-plugin/target/mybatis.generator.plugin-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/elasticsearch_task_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/elasticsearch_task_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/elasticsearch-client.iml" afterPath="$PROJECT_DIR$/elasticsearch-client/elasticsearch-client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESSearchUtil.java" afterPath="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESSearchUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ElasticSearchClientFactory.java" afterPath="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ElasticSearchClientFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/SearchIndexService.java" afterPath="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/SearchIndexService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationBuilderFactory.java" afterPath="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationBuilderFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/SearchCondition.java" afterPath="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/SearchCondition.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-client/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/elasticsearch-client/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/elasticsearch-task.iml" afterPath="$PROJECT_DIR$/elasticsearch-task/elasticsearch-task.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/pom.xml" afterPath="$PROJECT_DIR$/elasticsearch-task/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-datasource.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/BaseTest.java" afterPath="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/BaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/EnterpriseBasicJobTest.java" afterPath="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/EnterpriseBasicJobTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/classes/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/elasticsearch-task/target/classes/applicationContext-datasource.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-datasource.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.java" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/ObjectConvertUtil.java" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/ObjectConvertUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-es.xml" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/src/main/resources/es.properties" afterPath="$PROJECT_DIR$/elasticsearch-task/src/main/resources/es.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/classes/applicationContext-es.xml" afterPath="$PROJECT_DIR$/elasticsearch-task/target/classes/applicationContext-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/classes/es.properties" afterPath="$PROJECT_DIR$/elasticsearch-task/target/classes/es.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-es.xml" afterPath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/classes/es.properties" afterPath="$PROJECT_DIR$/elasticsearch-task/target/elasticsearch-task-1.0-SNAPSHOT/WEB-INF/classes/es.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/elasticsearch-task/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/elasticsearch-task/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/elasticsearch-task/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/elasticsearch-task/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-task/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/elasticsearch-task/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-generator-plugin/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/mybatis-generator-plugin/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,66 +55,53 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ElasticSearchClientFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ElasticSearchClientFactory.java">
+      <file leaf-file-name="ElasticSearchConditionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/ElasticSearchConditionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch-task/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="158" column="19" lean-forward="false" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnterpriseSearchHandle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/handle/EnterpriseSearchHandle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="394">
+              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/BaseTest.java">
+      <file leaf-file-name="SearchCondition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/SearchCondition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnterpriseBasicJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="36" column="9" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="248">
+              <caret line="97" column="54" lean-forward="false" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnterpriseBasicElasticJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicElasticJob.java">
+      <file leaf-file-name="EnterpriseBasicInfoDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="44" column="66" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="66" />
+            <state relative-caret-position="705">
+              <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1061#1062#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ESSearchUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESSearchUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-113">
+              <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,47 +112,13 @@
       <file leaf-file-name="EnterpriseBasicJobTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/EnterpriseBasicJobTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            <state relative-caret-position="289">
+              <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
                 <element signature="e#1015#1016#0" expanded="true" />
                 <element signature="e#1071#1072#0" expanded="true" />
                 <marker date="1494349542000" expanded="true" signature="787:856" ph="select enter... enterprise_basic_info" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-es.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-es.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="21" column="94" lean-forward="false" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="94" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="es.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/resources/es.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchIndexService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/SearchIndexService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="80" column="45" lean-forward="false" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="45" />
-              <folding>
-                <element signature="method#getListByCondition#0;class#SearchIndexService#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -189,6 +149,8 @@
       <find>defaultOperator</find>
       <find>queryName</find>
       <find>getClient()</find>
+      <find>unit</find>
+      <find>BaseTest</find>
     </findStrings>
     <replaceStrings>
       <replace>client</replace>
@@ -205,10 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/generator/PageableFindPlugin.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/generator/PageablePlugin.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/generator/PageableFindPlugin.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/generator/Page.java" />
         <option value="$PROJECT_DIR$/elasticsearch-task/src/main/resources/database.properties" />
         <option value="$PROJECT_DIR$/elasticsearch-task/src/main/resources/mybatis-generator-config.xml" />
         <option value="$PROJECT_DIR$/mybatis-generator-plugin/pom.xml" />
@@ -225,7 +183,6 @@
         <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/util/ScanDomainUtil.java" />
         <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicJob.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESConfig.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ElasticSearchClientFactory.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/FilterBuilderOperation.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/ShouldBuilderOperation.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationBuilder.java" />
@@ -234,28 +191,33 @@
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/SearchOperation.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/BuilderOperation.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/QueryType.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationBuilderFactory.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/util/BSIElasticsearchClient.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/Pair.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/BSIElasticsearchClient.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESSearchUtil.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESIndexService.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/SearchIndexServiceImpl.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/annotation/ESParams.java" />
         <option value="$PROJECT_DIR$/elasticsearch-client/pom.xml" />
-        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/SearchCondition.java" />
         <option value="$PROJECT_DIR$/elasticsearch-task/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-datasource.xml" />
-        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/resources/es.properties" />
-        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-es.xml" />
         <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/handle/EnterpriseSearchHandle.java" />
         <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicElsticJob.java" />
         <option value="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/BaseTest.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/ObjectConvertUtil.java" />
         <option value="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/EnterpriseBasicJobTest.java" />
-        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/SearchIndexService.java" />
         <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicElasticJob.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/resources/es.properties" />
+        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-es.xml" />
+        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ElasticSearchClientFactory.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/ObjectConvertUtil.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationBuilderFactory.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/DistanceUtil.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/GeoRangeSort.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/SearchIndexService.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESSearchUtil.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/Point.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/SearchCondition.java" />
+        <option value="$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/ElasticSearchConditionTest.java" />
       </list>
     </option>
   </component>
@@ -351,8 +313,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="90" />
-    <option name="y" value="41" />
+    <option name="x" value="15" />
+    <option name="y" value="23" />
     <option name="width" value="1388" />
     <option name="height" value="800" />
   </component>
@@ -372,6 +334,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -382,6 +347,174 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.elasticsearch:elasticsearch:2.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-2.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.elasticsearch:elasticsearch:2.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-2.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.elasticsearch:elasticsearch:2.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-2.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.elasticsearch:elasticsearch:2.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-2.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.elasticsearch:elasticsearch:2.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-2.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.elasticsearch:elasticsearch:2.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-2.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoPoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -478,15 +611,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="job" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElasticSearchConditionTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -545,18 +704,8 @@
               <option name="myItemId" value="cweeyii" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="elasticsearch-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elasticsearch-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elasticsearch-client" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -570,11 +719,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="elasticsearch-client" />
+              <option name="myItemId" value="elasticsearch-task" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cweeyii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="job" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cweeyii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -716,11 +925,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cweeyii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -757,7 +997,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnterpriseBasicJobTest.testDTO">
+  <component name="RunManager" selected="JUnit.ElasticSearchConditionTest.testFilterBuilder">
     <configuration default="false" name="EnterpriseBasicJobTest.testFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -771,32 +1011,6 @@
       <option name="PACKAGE_NAME" value="com.cweeyii.job" />
       <option name="MAIN_CLASS_NAME" value="com.cweeyii.job.EnterpriseBasicJobTest" />
       <option name="METHOD_NAME" value="testFunction" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="EnterpriseBasicJobTest.testMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cweeyii.job.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="elasticsearch-task" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cweeyii.job" />
-      <option name="MAIN_CLASS_NAME" value="com.cweeyii.job.EnterpriseBasicJobTest" />
-      <option name="METHOD_NAME" value="testMapper" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -875,6 +1089,32 @@
       <option name="PACKAGE_NAME" value="com.cweeyii.job" />
       <option name="MAIN_CLASS_NAME" value="com.cweeyii.job.EnterpriseBasicJobTest" />
       <option name="METHOD_NAME" value="testDTO" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ElasticSearchConditionTest.testFilterBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cweeyii.job.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="elasticsearch-task" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cweeyii.job" />
+      <option name="MAIN_CLASS_NAME" value="com.cweeyii.job.ElasticSearchConditionTest" />
+      <option name="METHOD_NAME" value="testFilterBuilder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1310,18 +1550,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testFunction" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testMapper" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testJdbc" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testDTO" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testJdbc" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testDTO" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ElasticSearchConditionTest.testFilterBuilder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testDTO" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testFunction" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testJdbc" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testMapper" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ElasticSearchConditionTest.testFilterBuilder" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testDTO" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testFunction" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EnterpriseBasicJobTest.testJdbc" />
       </list>
     </recent_temporary>
   </component>
@@ -1346,47 +1586,48 @@
       <workItem from="1494300436687" duration="6523000" />
       <workItem from="1494317994172" duration="11800000" />
       <workItem from="1494338625781" duration="10917000" />
+      <workItem from="1494350587619" duration="187000" />
+      <workItem from="1494382445901" duration="16962000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 01h 05m 51s.xml">
+    <history-entry file="ElasticSearchConditionTest_testFilterBuilder - 2017.05.10 at 16h 38m 13s.xml">
+      <configuration name="ElasticSearchConditionTest.testFilterBuilder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConditionTest_testFilterBuilder - 2017.05.10 at 16h 38m 43s.xml">
+      <configuration name="ElasticSearchConditionTest.testFilterBuilder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConditionTest_testFilterBuilder - 2017.05.10 at 16h 47m 12s.xml">
+      <configuration name="ElasticSearchConditionTest.testFilterBuilder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConditionTest_testFilterBuilder - 2017.05.10 at 17h 06m 31s.xml">
+      <configuration name="ElasticSearchConditionTest.testFilterBuilder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConditionTest_testFilterBuilder - 2017.05.10 at 17h 09m 20s.xml">
+      <configuration name="ElasticSearchConditionTest.testFilterBuilder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 16h 53m 39s.xml">
       <configuration name="EnterpriseBasicJobTest.testDTO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 01h 07m 49s.xml">
+    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 17h 01m 31s.xml">
       <configuration name="EnterpriseBasicJobTest.testDTO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 01h 08m 22s.xml">
+    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 17h 03m 24s.xml">
       <configuration name="EnterpriseBasicJobTest.testDTO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 01h 09m 10s.xml">
+    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 17h 04m 21s.xml">
       <configuration name="EnterpriseBasicJobTest.testDTO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 01h 11m 09s.xml">
+    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 17h 04m 50s.xml">
       <configuration name="EnterpriseBasicJobTest.testDTO" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 01h 20m 16s.xml">
-      <configuration name="EnterpriseBasicJobTest.testDTO" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnterpriseBasicJobTest_testDTO - 2017.05.10 at 01h 22m 02s.xml">
-      <configuration name="EnterpriseBasicJobTest.testDTO" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnterpriseBasicJobTest_testMapper - 2017.05.09 at 12h 21m 45s.xml">
-      <configuration name="EnterpriseBasicJobTest.testMapper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnterpriseBasicJobTest_testMapper - 2017.05.09 at 12h 33m 36s.xml">
-      <configuration name="EnterpriseBasicJobTest.testMapper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnterpriseBasicJobTest_testMapper - 2017.05.09 at 12h 34m 36s.xml">
-      <configuration name="EnterpriseBasicJobTest.testMapper" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44297000" />
+    <option name="totallyTimeSpent" value="61446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="41" width="1388" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="15" y="23" width="1388" height="800" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1400,21 +1641,21 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4858757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45480227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40677965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36723164" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32392272" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33803862" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29943502" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1432,7 +1673,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1446,10 +1687,285 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/util/ScanDomainUtil.java">
+    <entry file="file://$PROJECT_DIR$/elasticsearch-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="257">
+          <caret line="103" column="21" lean-forward="false" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="158" column="19" lean-forward="false" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/resources/es.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-es.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="94" lean-forward="false" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/handle/EnterpriseSearchHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#419#420#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ElasticSearchClientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE.jar!/org/springframework/cglib/beans/BeanCopier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/IdsQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="e#1412#1413#0" expanded="false" />
+            <element signature="e#1484#1485#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/base/domain/EnterpriseBasicInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationBuilderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/DistanceUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/ObjectConvertUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/sort/SortBuilders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <element signature="e#1282#1283#0" expanded="false" />
+            <element signature="e#1332#1333#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/builder/SearchSourceBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="348" column="37" lean-forward="false" selection-start-line="348" selection-start-column="37" selection-end-line="348" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/GeoRangeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial3d/5.4.1/lucene-spatial3d-5.4.1.jar!/org/apache/lucene/geo3d/GeoPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-958">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/sort/FieldSortBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="52" column="11" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/sort/GeoDistanceSortBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/common/geo/GeoDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="84" column="7" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/sort/ScoreSortBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicElasticJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="44" column="56" lean-forward="false" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/aggregations/InternalAggregations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/aggregations/Aggregations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/action/search/SearchResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="86" column="23" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="23" />
+          <folding>
+            <element signature="e#3097#3098#0" expanded="false" />
+            <element signature="e#3151#3152#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/aggregations/AbstractAggregationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/aggregations/bucket/range/geodistance/InternalGeoDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="37" column="89" lean-forward="false" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/action/search/SearchRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1991">
+          <caret line="485" column="5" lean-forward="true" selection-start-line="485" selection-start-column="5" selection-end-line="485" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/aggregations/bucket/range/Range.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1463,511 +1979,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESConfig.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#329#330#0" expanded="false" />
-            <element signature="e#375#376#0" expanded="false" />
-            <element signature="e#410#411#0" expanded="false" />
-            <element signature="e#441#442#0" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#529#530#0" expanded="false" />
-            <element signature="e#557#558#0" expanded="false" />
-            <element signature="e#584#585#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#653#654#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/base/Preconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="207" column="22" lean-forward="false" selection-start-line="207" selection-start-column="22" selection-end-line="207" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/client/transport/TransportClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/client/support/AbstractClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="295" column="80" lean-forward="false" selection-start-line="295" selection-start-column="74" selection-end-line="295" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="176" column="25" lean-forward="true" selection-start-line="147" selection-start-column="12" selection-end-line="176" selection-end-column="25" />
+        <state relative-caret-position="267">
+          <caret line="237" column="12" lean-forward="false" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE.jar!/org/springframework/util/StringUtils.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/aggregations/AggregationBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="131">
+          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/common/geo/GeoPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-523">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/PrefixQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/QueryStringQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/TermQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/RangeQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5535">
-          <caret line="390" column="38" lean-forward="false" selection-start-line="390" selection-start-column="29" selection-end-line="390" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#11098#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1543#1544#0" expanded="false" />
-            <element signature="e#1575#1576#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/IdsQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#3490#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1412#1413#0" expanded="false" />
-            <element signature="e#1484#1485#0" expanded="false" />
-            <element signature="e#1912#1913#0" expanded="false" />
-            <element signature="e#1946#1947#0" expanded="false" />
-            <element signature="e#2051#2052#0" expanded="false" />
-            <element signature="e#2085#2086#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0.jar!/org/elasticsearch/index/query/QueryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/FuzzyQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="107" column="28" lean-forward="false" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#5470#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1981#1982#0" expanded="false" />
-            <element signature="e#2023#2024#0" expanded="false" />
-            <element signature="e#2223#2224#0" expanded="false" />
-            <element signature="e#2265#2266#0" expanded="false" />
-            <element signature="e#2466#2467#0" expanded="false" />
-            <element signature="e#2508#2509#0" expanded="false" />
-            <element signature="e#2710#2711#0" expanded="false" />
-            <element signature="e#2752#2753#0" expanded="false" />
-            <element signature="e#2955#2956#0" expanded="false" />
-            <element signature="e#2997#2998#0" expanded="false" />
-            <element signature="e#3258#3259#0" expanded="false" />
-            <element signature="e#3300#3301#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/SpanFirstQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/WildcardQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/GeoDistanceQueryBuilder.java">
+    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="e#1463#1464#0" expanded="false" />
-            <element signature="e#1495#1496#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/ExistsQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/QueryBuilder.java">
+    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/QueryType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="70" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/common/unit/DistanceUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="349">
           <caret line="50" column="10" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/GeoDistanceRangeQueryBuilder.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/awt/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1514">
-          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="143">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/index/query/GeohashCellQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="102" column="15" lean-forward="false" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#10493#0" expanded="false" />
-            <element signature="e#4264#4265#0" expanded="false" />
-            <element signature="e#4312#4313#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queryparser/5.4.1/lucene-queryparser-5.4.1.jar!/org/apache/lucene/queryparser/xml/builders/BooleanQueryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationBuilderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#475#476#0" expanded="false" />
-            <element signature="method#term#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#queryString#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#queryString#1;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#prefix#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#range#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#notInId#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#fuzzy#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#wildcard#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#geoDistance#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#geoHash#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#builder#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#getQueryBuilders#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/QueryType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/OperationBuilderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#475#476#0" expanded="false" />
-            <element signature="method#term#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#queryString#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#queryString#1;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#prefix#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#range#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#notInId#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#fuzzy#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#wildcard#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#geoDistance#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#geoHash#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#builder#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-            <element signature="method#getQueryBuilders#0;class#Builder#0;class#OperationBuilderFactory#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/sort/SortOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/SearchIndexServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="15" column="73" lean-forward="true" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/SearchCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1864#1865#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
-            <element signature="e#2004#2005#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2068#2069#0" expanded="true" />
-            <element signature="e#2097#2098#0" expanded="true" />
-            <element signature="e#2138#2139#0" expanded="true" />
-            <element signature="e#2174#2175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESSearchUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/action/search/SearchRequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="448" column="46" lean-forward="false" selection-start-line="448" selection-start-column="46" selection-end-line="448" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/sort/SortBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/sort/FieldSortBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/annotation/ESParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="103" column="21" lean-forward="false" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#854#855#0" expanded="false" />
-            <element signature="e#891#892#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#968#969#0" expanded="false" />
-            <element signature="e#1003#1004#0" expanded="false" />
-            <element signature="e#1052#1053#0" expanded="false" />
-            <element signature="e#1100#1101#0" expanded="false" />
-            <element signature="e#1140#1141#0" expanded="false" />
-            <element signature="e#1167#1168#0" expanded="false" />
-            <element signature="e#1192#1193#0" expanded="false" />
-            <element signature="e#1226#1227#0" expanded="false" />
-            <element signature="e#1254#1255#0" expanded="false" />
-            <element signature="e#1295#1296#0" expanded="false" />
-            <element signature="e#1332#1333#0" expanded="false" />
-            <element signature="e#1392#1393#0" expanded="false" />
-            <element signature="e#1444#1445#0" expanded="false" />
-            <element signature="e#1480#1481#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-            <element signature="e#1562#1563#0" expanded="false" />
-            <element signature="e#1604#1605#0" expanded="false" />
-            <element signature="e#1639#1640#0" expanded="false" />
-            <element signature="e#1670#1671#0" expanded="false" />
-            <element signature="e#1718#1719#0" expanded="false" />
-            <element signature="e#1758#1759#0" expanded="false" />
-            <element signature="e#1793#1794#0" expanded="false" />
-            <element signature="e#1824#1825#0" expanded="false" />
-            <element signature="e#1872#1873#0" expanded="false" />
-            <element signature="e#1912#1913#0" expanded="false" />
-            <element signature="e#1951#1952#0" expanded="false" />
-            <element signature="e#1986#1987#0" expanded="false" />
-            <element signature="e#2042#2043#0" expanded="false" />
-            <element signature="e#2090#2091#0" expanded="false" />
-            <element signature="e#2124#2125#0" expanded="false" />
-            <element signature="e#2154#2155#0" expanded="false" />
-            <element signature="e#2200#2201#0" expanded="false" />
-            <element signature="e#2238#2239#0" expanded="false" />
-            <element signature="e#2270#2271#0" expanded="false" />
-            <element signature="e#2298#2299#0" expanded="false" />
-            <element signature="e#2340#2341#0" expanded="false" />
-            <element signature="e#2374#2375#0" expanded="false" />
-            <element signature="e#2417#2418#0" expanded="false" />
-            <element signature="e#2456#2457#0" expanded="false" />
-            <element signature="e#2520#2521#0" expanded="false" />
-            <element signature="e#2576#2577#0" expanded="false" />
-            <element signature="e#2622#2623#0" expanded="false" />
-            <element signature="e#2713#2714#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-task/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="158" column="19" lean-forward="false" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/resources/es.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="36" column="9" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/util/ObjectConvertUtil.java">
+    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/SearchIndexService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="38" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+        <state relative-caret-position="746">
+          <caret line="188" column="68" lean-forward="false" selection-start-line="188" selection-start-column="40" selection-end-line="188" selection-end-column="68" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#getListByCondition#0;class#SearchIndexService#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/EnterpriseBasicJobTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="289">
+          <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
             <element signature="e#1015#1016#0" expanded="true" />
             <element signature="e#1071#1072#0" expanded="true" />
             <marker date="1494349542000" expanded="true" signature="787:856" ph="select enter... enterprise_basic_info" />
@@ -1975,49 +2082,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/resources/applicationContext-es.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.2.0/elasticsearch-2.2.0-sources.jar!/org/elasticsearch/search/aggregations/bucket/range/geodistance/GeoDistanceBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="21" column="94" lean-forward="false" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="94" />
-          <folding />
+        <state relative-caret-position="368">
+          <caret line="181" column="30" lean-forward="false" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
+          <folding>
+            <element signature="e#5403#5404#0" expanded="true" />
+            <element signature="e#5450#5451#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/job/EnterpriseBasicElasticJob.java">
+    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/operation/SearchCondition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="44" column="66" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="66" />
+        <state relative-caret-position="248">
+          <caret line="97" column="54" lean-forward="false" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/handle/EnterpriseSearchHandle.java">
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/main/java/com/cweeyii/elastic/dto/EnterpriseBasicInfoDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="705">
+          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ElasticSearchClientFactory.java">
+    <entry file="file://$PROJECT_DIR$/elasticsearch-task/src/test/java/com/cweeyii/job/ElasticSearchConditionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="394">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/SearchIndexService.java">
+    <entry file="file://$PROJECT_DIR$/elasticsearch-client/src/main/java/com/cweeyii/client/ESSearchUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="80" column="45" lean-forward="false" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="45" />
+        <state relative-caret-position="-113">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding>
-            <element signature="method#getListByCondition#0;class#SearchIndexService#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
